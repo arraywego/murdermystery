@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+}
+#home{
+background-image: url('/src/images/spooky.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+width:100vw;
+height:100vh;
+}
+
+#clue1 {
+    
+    background-color: #525233;opacity: .25;
+    color:rgb(20, 2, 2);
+    cursor: pointer;
+}
+#clue1:focus{
+    background-color: #eeeed8;
+    opacity: 1;
+}
+.instructions{
+    position: absolute;
+    bottom:5em;
+    color:#fff;
+    margin:auto;
+    width:50%;
+    background-color: #000;
+    opacity: .75;
+    text-align: center;
+}
+.join{
+    color:rgb(0, 30, 255) !important;
+    text-decoration: underline;
+    background-color: rgb(192, 221, 248);
+    padding:.5em;
+}
